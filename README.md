@@ -52,7 +52,7 @@ The script uses `httpx`, gets the current manifest, sends the JSON request, prin
 Requires Node.js 20 or newer. The example uses the built-in `fetch`; no generated SDK is needed.
 
 ```bash
-npm run solve -- --env-file=.env
+npm run solve
 ```
 
 Node's `--env-file` option loads the same `.env`. The script performs the same manifest lookup, solve request and final-evidence check as the Python version.
