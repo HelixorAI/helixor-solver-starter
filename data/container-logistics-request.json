@@ -1,0 +1,13 @@
+{
+  "problem_type": "container_logistics",
+  "problem": {
+    "containers": [
+      {"id": "C1", "destination_port": "PORT_A", "departure_day": 1, "arrival_day": 5, "capacity_volume": 10, "capacity_weight": 1000}
+    ],
+    "shipments": [
+      {"id": "S1", "destination_port": "PORT_A", "ready_day": 0, "required_by_day": 10, "volume": 3, "weight": 100}
+    ]
+  },
+  "solver": {"mode": "local"},
+  "options": {}
+}

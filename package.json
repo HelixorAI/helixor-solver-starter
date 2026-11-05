@@ -1,0 +1,10 @@
+{
+  "name": "helixor-solver-hosted-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "solve": "node --env-file=.env src/node/solve.mjs"
+  },
+  "engines": {"node": ">=20"}
+}
